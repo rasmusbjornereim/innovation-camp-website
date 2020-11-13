@@ -17,3 +17,24 @@ header{
     align-self: center;
     text-align: center;
 }
+.problem{
+    display: flex;
+    height: 100vh;
+    overflow: auto;
+    background-color: cornflowerblue;
+    border-bottom: 5px solid darkgreen;
+}
+.why{
+    display: flex;
+    height: 100vh;
+    overflow: auto;
+    background-color: #6075c9;
+    border-bottom: 5px solid darkgreen;
+}
+.solution{
+    display: flex;
+    height: 100vh;
+    overflow: auto;
+    background-color: cornflowerblue;
+    border-bottom: 5px solid darkgreen;
+}
