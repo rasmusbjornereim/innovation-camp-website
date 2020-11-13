@@ -1,4 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;500;700&display=swap');
 *{
     margin:0;
     padding: 0;
+    font-family: "Exo";
+}
+body{
+    background-color: cornflowerblue;
+}
+header{
+    display: flex;
+    height: 150px;
+    justify-content: center;
+}
+.title{
+    font-size: clamp(15px,3vw,30px);
+    align-self: center;
+    text-align: center;
 }
