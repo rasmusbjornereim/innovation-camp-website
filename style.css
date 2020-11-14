@@ -87,5 +87,29 @@ section p{
 }
 section img{
     width: 40vw;
+    min-width: 600px;
     align-self: center;
+}
+
+@media (max-width: 1000px){
+    section{
+        display: grid;
+        height: 950px;
+        scroll-snap-align: none;
+    }
+    .border{
+        display: block;
+    }
+    .content{
+        width: 75%;
+        min-width: 350px;
+        margin: 0 auto;
+    }
+    section img {
+        width: 75%;
+        min-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
 }
