@@ -75,3 +75,17 @@ section #side1{
 section p{
 	font-size: 1.5rem;
 }
+.border{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.content{
+    width: 600px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+section img{
+    width: 40vw;
+    align-self: center;
+}
